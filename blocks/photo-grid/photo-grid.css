@@ -1,0 +1,12 @@
+.photo-grid {
+  width: 1184px;
+  display: grid;
+  grid-template-columns: repeat(4, 284px);
+  grid-template-rows: repeat(3, 213px);
+  list-style: none;
+  width: 100%;
+  box-sizing: border-box;
+  gap: 16px;
+  margin: 0;
+  padding: 92px 48px;
+}
