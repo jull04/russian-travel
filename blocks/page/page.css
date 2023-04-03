@@ -6,4 +6,5 @@
   background-color: #2A2C2F;
   color: #FFFFFF;
   box-sizing: border-box;
+  text-rendering: optimizeLegibility;
 }
