@@ -6,3 +6,9 @@
   margin: 0;
   align-items: flex-end;
 }
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .header__lang-links {
+   margin-bottom: 10px;
+  }
+}
