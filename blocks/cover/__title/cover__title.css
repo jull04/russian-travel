@@ -8,7 +8,7 @@
   text-align: center;
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .cover__title {
     font-size: 32px;
     line-height: 1.1;

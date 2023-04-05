@@ -9,12 +9,7 @@
   }
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
-  .lead__figure  {
-    max-width: 100%;
-  }
-}
-@media (min-width: 320px) and (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
   .lead__figure  {
     max-width: 100%;
   }
