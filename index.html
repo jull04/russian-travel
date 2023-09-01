@@ -3,6 +3,9 @@
   <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="Страница о путешествиях по России">
+      <meta name="keywords" content="путешествия">
+      <meta name="author" content="Хабибова Юлия">
       <link rel="stylesheet" href="./pages/index.css">
       <title>Путешествия по России</title>
   </head>
@@ -10,6 +13,7 @@
       <header class="header">
         <img class="header__logo" src="./images/header-logo.svg" alt="Логотип">
         <ul class="header__lang-links">
+          <li class="header__lang-link header__link">Тык сюда</li>
           <li>
             <a href="#" class="header__lang-link header__lang-link_active">Ru</a>
           </li>
@@ -135,6 +139,14 @@
         </nav>
         <p class="footer__copyright">&copy; 2023. Хабибова Юлия</p>
       </footer>
+      <div class="popup">
+        <form class="popup__content" name="edit-form">
+          <button type="button" class="popup__close"></button>
+          <h3 class="popup__title">Ты зая</h3>
+          <button type="submit" class="popup__submit">пуньк</button>
+        </form>
+      </div>
+      <script src="./scripts/index.js"></script>
   </body>
 </html>
 
